@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VirtualSock</string>
+    <string name="logo">VirtualSock</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="email_or_user">Email (or username if no email provided)</string>
+    <string name="hint_password">Password</string>
+
+    <string name="btn_forgot_password">Forgot Password?</string>
+    <string name="btn_link_to_register">Not Registered? get Registered in Firebase now!</string>
+</resources>

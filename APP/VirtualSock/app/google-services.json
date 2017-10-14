@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "550981689485",
+    "firebase_url": "https://virtualsock-389e9.firebaseio.com",
+    "project_id": "virtualsock-389e9",
+    "storage_bucket": "virtualsock-389e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550981689485:android:c4017bdde7f66b59",
+        "android_client_info": {
+          "package_name": "pgupta.virtualsock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550981689485-0p09e8fa12qp3dnoqqthmge5rkjl6s9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfEZCUs_4iTexrXL3sNfyJX0ojhQ9tsfU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
