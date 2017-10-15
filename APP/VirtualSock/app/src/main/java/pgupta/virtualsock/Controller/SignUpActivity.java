@@ -59,7 +59,16 @@ public class SignUpActivity extends AppCompatActivity {
                         if (!t.getErrorMessage().isEmpty()) {
                             Toast.makeText(SignUpActivity.this, t.getErrorMessage(), Toast.LENGTH_SHORT).show();
                         } else {
-                            startActivity(new Intent(SignUpActivity.this, MainActivity.Class));
+                            Facade.setLight("green", new Callback<Boolean>() {
+                                @Override
+                                public void accept(Boolean b) {
+                                    //TODO: do nothing
+                                }
+                            });
+                            Intent i = new Intent(SignUpActivity.this, EditProfileActivity.class);
+                            i.putExtra("showCancel", false);
+                            startActivity(i);
+                            finish();
                         }
                     }
                 });

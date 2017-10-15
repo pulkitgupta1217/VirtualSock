@@ -13,6 +13,8 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.List;
+
 import pgupta.virtualsock.Model.User;
 
 /**
@@ -136,5 +138,21 @@ public class Facade {
                         }
                     });
         }
+    }
+
+    public static void setLight(String color, Callback<Boolean> callback) {
+        //TODO get Stuff to determine status of light
+    }
+
+    public static void updateLights(Callback<List<String>[]> updateCallback) {
+        //TODO
+    }
+
+    public static void loadProfile(Callback<Object[]> callback) {
+        //todo: get info from server
+    }
+
+    public static void updateProfile(String name, String username, Callback<String> callback) {
+        //TODO: update userInfo
     }
 }

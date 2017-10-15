@@ -47,6 +47,7 @@ public class LoginActivity extends AppCompatActivity {
                 Log.d("***", "going to signup");
                 Intent i = new Intent(LoginActivity.this, SignUpActivity.class);
                 startActivity(i);
+                finish();
             }
         });
 
@@ -63,7 +64,8 @@ public class LoginActivity extends AppCompatActivity {
                         if (!t.getErrorMessage().isEmpty()) {
                             Toast.makeText(LoginActivity.this, t.getErrorMessage(), Toast.LENGTH_SHORT).show();
                         } else {
-                            startActivity(new Intent(LoginActivity.this, MainActivity.Class));
+                            startActivity(new Intent(LoginActivity.this, MainActivity.class));
+                            finish();
                         }
                     }
                 });
@@ -77,7 +79,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.d("***", "resetting password");
                 startActivity(new Intent(LoginActivity.this, ResetPasswordActivity.class));
-
+                finish();
             }
         });
     }
