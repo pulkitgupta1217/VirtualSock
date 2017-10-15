@@ -4,7 +4,16 @@
     <string name="btn_login">LOGIN</string>
     <string name="email_or_user">Email (or username if no email provided)</string>
     <string name="hint_password">Password</string>
+    <string name="btn_link_to_login">Already registered? Login!</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="forgot_password_msg">Please enter your registered email so we can send you password reset instructions.</string>
 
     <string name="btn_forgot_password">Forgot Password?</string>
     <string name="btn_link_to_register">Not Registered? get Registered in Firebase now!</string>
+    <string name="username">Username</string>
+    <string name="email">Enter Email</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="hint_email">Email</string>
+    <string name="lbl_forgot_password">Forgot Password?</string>
 </resources>
